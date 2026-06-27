@@ -4,7 +4,7 @@ from flask import Flask
 import threading
 
 # گرفتن توکن از Secrets
-TOKEN = os.environ.get("BOT_TOKEN")
+TOKEN = os.environ.get("7871232115:AAFUummTGiEadzSS20cFyILX3ViI0-uvdMo")
 bot = telebot.TeleBot(TOKEN)
 
 # راه‌اندازی وب‌سرور برای UptimeRobot
